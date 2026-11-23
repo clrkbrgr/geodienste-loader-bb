@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+
+# Gepackte Plugins
+*.zip
+
+# Editoren und Betriebssystem
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
