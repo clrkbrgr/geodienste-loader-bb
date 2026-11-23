@@ -1,0 +1,29 @@
+[general]
+name=Geodienste-Loader BB
+qgisMinimumVersion=3.44
+qgisMaximumVersion=4.99
+description=Find geodata providers and geo web services of the Brandenburg spatial data infrastructure (GDI-BB, Germany) and load them as layers.
+version=1.0.0
+author=Landesvermessung und Geobasisinformation Brandenburg (Clark Berger)
+email=clark.berger@geobasis-bb.de
+about=Browse the geodata providers and geo web services listed in the Geoportal Brandenburg (Germany) directly in QGIS: providers with their services, filters by service type (WMS, WMTS, WFS, WCS, OGC API) and by Open Data, INSPIRE and statewide, and a search across the entire catalogue. Services are loaded through the QGIS data source dialog, metadata opens in the Geoportal.
+  Coverage: all services listed in the Geoportal Brandenburg, mainly from state authorities, districts and municipalities of Brandenburg. User interface in German and English.
+tracker=https://github.com/clrkbrgr/geodienste-loader-bb/issues
+repository=https://github.com/clrkbrgr/geodienste-loader-bb
+homepage=https://www.geobasis-bb.de/
+tags=brandenburg,geodienste,gdi,gdi-bb,gdi-de,wms,wfs,wcs,wmts,ogc api,geoportal,inspire,open data,germany,deutschland,katalog,catalogue
+supportsQt6=True
+category=Web
+icon=icon.png
+experimental=False
+deprecated=False
+
+changelog=1.0.0
+  - First public release.
+  - Geodata providers of the Geoportal Brandenburg with their services,
+    filters by category, service type (WMS, WMTS, WFS, WCS, OGC API),
+    Open Data, INSPIRE and statewide.
+  - Search across the entire catalogue.
+  - Load services via the QGIS data source dialog, copy the service URL,
+    open metadata in the Geoportal, zoom to the service extent.
+  - User interface in German and English.

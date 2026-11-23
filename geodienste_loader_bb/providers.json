@@ -1,0 +1,699 @@
+{
+  "schema_version": 4,
+  "generated": "2026-10-29T08:37:02Z",
+  "source": "https://geoportal.brandenburg.de/gs-json",
+  "provider_count": 115,
+  "service_count": 7992,
+  "providers": [
+    {
+      "key": "amt-barnim-oderbruch",
+      "name": "Barnim-Oderbruch",
+      "function": "Amt",
+      "service_count": 187
+    },
+    {
+      "key": "amt-beetzsee",
+      "name": "Beetzsee",
+      "function": "Amt",
+      "service_count": 166
+    },
+    {
+      "key": "amt-biesenthal-barnim",
+      "name": "Biesenthal-Barnim",
+      "function": "Amt",
+      "service_count": 210
+    },
+    {
+      "key": "amt-brieskow-finkenheerd",
+      "name": "Brieskow-Finkenheerd",
+      "function": "Amt",
+      "service_count": 108
+    },
+    {
+      "key": "amt-brueck",
+      "name": "Brück",
+      "function": "Amt",
+      "service_count": 146
+    },
+    {
+      "key": "amt-dahme-mark",
+      "name": "Dahme/Mark",
+      "function": "Amt",
+      "service_count": 90
+    },
+    {
+      "key": "amt-falkenberg-hoehe",
+      "name": "Falkenberg-Höhe",
+      "function": "Amt",
+      "service_count": 56
+    },
+    {
+      "key": "amt-gartz-oder",
+      "name": "Gartz (Oder)",
+      "function": "Amt",
+      "service_count": 94
+    },
+    {
+      "key": "amt-lenzen-elbtalaue",
+      "name": "Lenzen-Elbtalaue",
+      "function": "Amt",
+      "service_count": 58
+    },
+    {
+      "key": "amt-maerkische-schweiz",
+      "name": "Märkische Schweiz",
+      "function": "Amt",
+      "service_count": 92
+    },
+    {
+      "key": "amt-neustadt-dosse",
+      "name": "Neustadt (Dosse)",
+      "function": "Amt",
+      "service_count": 12
+    },
+    {
+      "key": "amt-neuzelle",
+      "name": "Neuzelle",
+      "function": "Amt",
+      "service_count": 98
+    },
+    {
+      "key": "amt-niemegk",
+      "name": "Niemegk",
+      "function": "Amt",
+      "service_count": 36
+    },
+    {
+      "key": "amt-odervorland",
+      "name": "Odervorland",
+      "function": "Amt",
+      "service_count": 380
+    },
+    {
+      "key": "amt-peitz",
+      "name": "Peitz",
+      "function": "Amt",
+      "service_count": 2
+    },
+    {
+      "key": "amt-rhinow",
+      "name": "Rhinow",
+      "function": "Amt",
+      "service_count": 32
+    },
+    {
+      "key": "amt-schlieben",
+      "name": "Schlieben",
+      "function": "Amt",
+      "service_count": 124
+    },
+    {
+      "key": "amt-seelow-land",
+      "name": "Seelow-Land",
+      "function": "Amt",
+      "service_count": 8
+    },
+    {
+      "key": "amt-spreenhagen",
+      "name": "Spreenhagen",
+      "function": "Amt",
+      "service_count": 108
+    },
+    {
+      "key": "amt-unterspreewald",
+      "name": "Unterspreewald",
+      "function": "Amt",
+      "service_count": 2
+    },
+    {
+      "key": "bund-bfg",
+      "name": "Bundesanstalt für Gewässerkunde (BfG)",
+      "function": "Sonstige",
+      "service_count": 8
+    },
+    {
+      "key": "bund-bkg",
+      "name": "Bundesamt für Kartographie und Geodäsie (BKG)",
+      "function": "Sonstige",
+      "service_count": 1
+    },
+    {
+      "key": "bund-destatis",
+      "name": "Statistisches Bundesamt (DESTATIS)",
+      "function": "Sonstige",
+      "service_count": 1
+    },
+    {
+      "key": "gemeinde-am-mellensee",
+      "name": "Am Mellensee",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 2
+    },
+    {
+      "key": "gemeinde-birkenwerder",
+      "name": "Birkenwerder",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 2
+    },
+    {
+      "key": "gemeinde-blankenfelde-mahlow",
+      "name": "Blankenfelde-Mahlow",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 3
+    },
+    {
+      "key": "gemeinde-eichwalde",
+      "name": "Eichwalde",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 9
+    },
+    {
+      "key": "gemeinde-gross-kreutz",
+      "name": "Groß Kreutz",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 154
+    },
+    {
+      "key": "gemeinde-grossbeeren",
+      "name": "Großbeeren",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 76
+    },
+    {
+      "key": "gemeinde-gruenheide-mark",
+      "name": "Grünheide (Mark)",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 150
+    },
+    {
+      "key": "gemeinde-hoppegarten",
+      "name": "Hoppegarten",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 132
+    },
+    {
+      "key": "gemeinde-kleinmachnow",
+      "name": "Kleinmachnow",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 4
+    },
+    {
+      "key": "gemeinde-kloster-lehnin",
+      "name": "Kloster Lehnin",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 304
+    },
+    {
+      "key": "gemeinde-michendorf",
+      "name": "Michendorf",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 148
+    },
+    {
+      "key": "gemeinde-milower-land",
+      "name": "Milower Land",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 78
+    },
+    {
+      "key": "gemeinde-neuenhagen",
+      "name": "Neuenhagen",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 4
+    },
+    {
+      "key": "gemeinde-niedergoersdorf",
+      "name": "Niedergörsdorf",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 42
+    },
+    {
+      "key": "gemeinde-nuthetal",
+      "name": "Nuthetal",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 112
+    },
+    {
+      "key": "gemeinde-petershagen-eggersdorf",
+      "name": "Petershagen/Eggersdorf",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 198
+    },
+    {
+      "key": "gemeinde-rietz-neuendorf",
+      "name": "Rietz-Neuendorf",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 102
+    },
+    {
+      "key": "gemeinde-ruedersdorf-bei-berlin",
+      "name": "Rüdersdorf bei Berlin",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 88
+    },
+    {
+      "key": "gemeinde-schoeneiche",
+      "name": "Schöneiche",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 100
+    },
+    {
+      "key": "gemeinde-schoenwalde-glien",
+      "name": "Schönwalde-Glien",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 192
+    },
+    {
+      "key": "gemeinde-schorfheide",
+      "name": "Schorfheide",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 156
+    },
+    {
+      "key": "gemeinde-schwielowsee",
+      "name": "Schwielowsee",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 2
+    },
+    {
+      "key": "gemeinde-tauche",
+      "name": "Tauche",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 20
+    },
+    {
+      "key": "gemeinde-wandlitz",
+      "name": "Wandlitz",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 170
+    },
+    {
+      "key": "gemeinde-zeuthen",
+      "name": "Zeuthen",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 2
+    },
+    {
+      "key": "land-afs-bebb",
+      "name": "Amt für Statistik Berlin-Brandenburg (AfS)",
+      "function": "Sonstige",
+      "service_count": 26
+    },
+    {
+      "key": "land-bldam-bb",
+      "name": "Brandenburgisches Landesamt für Denkmalpflege und Archäologisches Landesmuseum (BLDAM)",
+      "function": "Landesamt",
+      "service_count": 8
+    },
+    {
+      "key": "land-gl-bebb",
+      "name": "Gemeinsame Landesplanung Berlin-Brandenburg (GL)",
+      "function": "Landesamt",
+      "service_count": 95
+    },
+    {
+      "key": "land-lavg-bb",
+      "name": "Landesamt für Arbeitsschutz, Verbraucherschutz und Gesundheit (LAVG)",
+      "function": "Landesamt",
+      "service_count": 10
+    },
+    {
+      "key": "land-lbgr-bb",
+      "name": "Landesamt für Bergbau, Geologie und Rohstoffe Brandenburg (LBGR)",
+      "function": "Landesamt",
+      "service_count": 183
+    },
+    {
+      "key": "land-lbv-bb",
+      "name": "Landesamt für Bauen und Verkehr (LBV)",
+      "function": "Landesamt",
+      "service_count": 1
+    },
+    {
+      "key": "land-lelf-bb",
+      "name": "Landesamt für Ländliche Entwicklung, Landwirtschaft und Flurneuordnung (LELF)",
+      "function": "Landesamt",
+      "service_count": 8
+    },
+    {
+      "key": "land-lfb-bb",
+      "name": "Landesbetrieb Forst Brandenburg (LFB)",
+      "function": "Landesbetrieb und Einrichtung des Landes",
+      "service_count": 41
+    },
+    {
+      "key": "land-lfu-bb",
+      "name": "Landesamt für Umwelt (LfU)",
+      "function": "Landesamt",
+      "service_count": 86
+    },
+    {
+      "key": "land-lgb-bb",
+      "name": "Landesvermessung und Geobasisinformation Brandenburg (LGB)",
+      "function": "Landesbetrieb und Einrichtung des Landes",
+      "service_count": 165
+    },
+    {
+      "key": "land-ls-bb",
+      "name": "Landesbetrieb Straßenwesen Brandenburg (LS)",
+      "function": "Landesbetrieb und Einrichtung des Landes",
+      "service_count": 15
+    },
+    {
+      "key": "land-masgz-bb",
+      "name": "Ministerium für Arbeit, Soziales, Gesundheit und gesellschaftlichen Zusammenhalt (MASGZ)",
+      "function": "Ministerium",
+      "service_count": 11
+    },
+    {
+      "key": "land-mbjs-bb",
+      "name": "Ministerium für Bildung, Jugend und Sport (MBJS)",
+      "function": "Ministerium",
+      "service_count": 15
+    },
+    {
+      "key": "land-mik-bb",
+      "name": "Ministerium des Innern und für Kommunales (MIK)",
+      "function": "Ministerium",
+      "service_count": 16
+    },
+    {
+      "key": "land-mil-bb",
+      "name": "Ministerium für Infrastruktur und Landesplanung (MIL)",
+      "function": "Ministerium",
+      "service_count": 2
+    },
+    {
+      "key": "land-mleuv-bb",
+      "name": "Ministerium für Land- und Ernährungswirtschaft, Umwelt und Verbraucherschutz (MLEUV)",
+      "function": "Ministerium",
+      "service_count": 15
+    },
+    {
+      "key": "land-mweke-bb",
+      "name": "Ministerium für Wirtschaft, Energie, Klimaschutz und Europa (MWEKE)",
+      "function": "Ministerium",
+      "service_count": 16
+    },
+    {
+      "key": "land-vlf-bb",
+      "name": "Verband für Landentwicklung und Flurneuordnung (VLF)",
+      "function": "Sonstige",
+      "service_count": 7
+    },
+    {
+      "key": "land-zdpol-bb",
+      "name": "Zentraldienst der Polizei Brandenburg (ZDPol)",
+      "function": "Landesbetrieb und Einrichtung des Landes",
+      "service_count": 5
+    },
+    {
+      "key": "landkreis-ee",
+      "name": "Landkreis Elbe-Elster",
+      "function": "Landkreis",
+      "service_count": 2
+    },
+    {
+      "key": "landkreis-lds",
+      "name": "Landkreis Dahme-Spreewald",
+      "function": "Landkreis",
+      "service_count": 1
+    },
+    {
+      "key": "landkreis-los",
+      "name": "Landkreis Oder-Spree",
+      "function": "Landkreis",
+      "service_count": 14
+    },
+    {
+      "key": "landkreis-opr",
+      "name": "Landkreis Ostprignitz-Ruppin",
+      "function": "Landkreis",
+      "service_count": 12
+    },
+    {
+      "key": "landkreis-osl",
+      "name": "Landkreis Oberspreewald-Lausitz",
+      "function": "Landkreis",
+      "service_count": 48
+    },
+    {
+      "key": "landkreis-pm",
+      "name": "Landkreis Potsdam-Mittelmark",
+      "function": "Landkreis",
+      "service_count": 12
+    },
+    {
+      "key": "landkreis-pr",
+      "name": "Landkreis Prignitz",
+      "function": "Landkreis",
+      "service_count": 12
+    },
+    {
+      "key": "landkreis-tf",
+      "name": "Landkreis Teltow-Fläming",
+      "function": "Landkreis",
+      "service_count": 1
+    },
+    {
+      "key": "stadt-altlandsberg",
+      "name": "Altlandsberg",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 1
+    },
+    {
+      "key": "stadt-baruth-mark",
+      "name": "Baruth/Mark",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 34
+    },
+    {
+      "key": "stadt-beelitz",
+      "name": "Beelitz",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 224
+    },
+    {
+      "key": "stadt-beeskow",
+      "name": "Beeskow",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 184
+    },
+    {
+      "key": "stadt-berlin",
+      "name": "Berlin",
+      "function": "Sonstige",
+      "service_count": 46
+    },
+    {
+      "key": "stadt-bernau",
+      "name": "Bernau",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 182
+    },
+    {
+      "key": "stadt-brandenburg-havel",
+      "name": "Brandenburg an der Havel",
+      "function": "Kreisfreie Stadt",
+      "service_count": 6
+    },
+    {
+      "key": "stadt-cottbus",
+      "name": "Cottbus",
+      "function": "Kreisfreie Stadt",
+      "service_count": 80
+    },
+    {
+      "key": "stadt-eberswalde",
+      "name": "Eberswalde",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 59
+    },
+    {
+      "key": "stadt-erkner",
+      "name": "Erkner",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 74
+    },
+    {
+      "key": "stadt-falkensee",
+      "name": "Falkensee",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 210
+    },
+    {
+      "key": "stadt-finsterwalde",
+      "name": "Finsterwalde",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 2
+    },
+    {
+      "key": "stadt-frankfurt-oder",
+      "name": "Frankfurt (Oder)",
+      "function": "Kreisfreie Stadt",
+      "service_count": 36
+    },
+    {
+      "key": "stadt-fuerstenwalde-spree",
+      "name": "Fürstenwalde/Spree",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 4
+    },
+    {
+      "key": "stadt-grossraeschen",
+      "name": "Grossräschen",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 104
+    },
+    {
+      "key": "stadt-hohen-neuendorf",
+      "name": "Hohen Neuendorf",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 98
+    },
+    {
+      "key": "stadt-koenigs-wusterhausen",
+      "name": "Königs Wusterhausen",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 266
+    },
+    {
+      "key": "stadt-luckau",
+      "name": "Luckau",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 126
+    },
+    {
+      "key": "stadt-ludwigsfelde",
+      "name": "Ludwigsfelde",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 178
+    },
+    {
+      "key": "stadt-nauen",
+      "name": "Nauen",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 14
+    },
+    {
+      "key": "stadt-neuruppin",
+      "name": "Neuruppin",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 10
+    },
+    {
+      "key": "stadt-prenzlau",
+      "name": "Prenzlau",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 4
+    },
+    {
+      "key": "stadt-rathenow",
+      "name": "Rathenow",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 4
+    },
+    {
+      "key": "stadt-schwedt-oder",
+      "name": "Schwedt/Oder",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 158
+    },
+    {
+      "key": "stadt-spremberg",
+      "name": "Spremberg",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 2
+    },
+    {
+      "key": "stadt-teltow",
+      "name": "Teltow",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 138
+    },
+    {
+      "key": "stadt-trebbin",
+      "name": "Trebbin",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 102
+    },
+    {
+      "key": "stadt-treuenbrietzen",
+      "name": "Treuenbrietzen",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 98
+    },
+    {
+      "key": "stadt-werder-havel",
+      "name": "Werder (Havel)",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 202
+    },
+    {
+      "key": "stadt-werneuchen",
+      "name": "Werneuchen",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 2
+    },
+    {
+      "key": "stadt-wildau",
+      "name": "Wildau",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 114
+    },
+    {
+      "key": "stadt-wriezen",
+      "name": "Wriezen",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 66
+    },
+    {
+      "key": "stadt-zehdenick",
+      "name": "Zehdenick",
+      "function": "Amtsfreie Gemeinde",
+      "service_count": 36
+    },
+    {
+      "key": "unternehmen-iggv",
+      "name": "Unternehmen: Ingenieurgesellschaft für Geoinformation und Vermessung mbH",
+      "function": "Sonstige",
+      "service_count": 2
+    },
+    {
+      "key": "unternehmen-wfbb",
+      "name": "Wirtschaftsförderung Land Brandenburg GmbH (WFBB)",
+      "function": "Sonstige",
+      "service_count": 20
+    },
+    {
+      "key": "verbandsgemeinde-liebenwerda",
+      "name": "Verbandsgemeinde Liebenwerda",
+      "function": "Verbandsgemeinde",
+      "service_count": 1
+    },
+    {
+      "key": "zweckverband-guben",
+      "name": "Zweckverband Guben",
+      "function": "Zweckverband",
+      "service_count": 2
+    },
+    {
+      "key": "zweckverband-hammerstrom-peitz",
+      "name": "Zweckverband -Hammerstrom/Malxe- Peitz",
+      "function": "Zweckverband",
+      "service_count": 3
+    },
+    {
+      "key": "zweckverband-kremmen",
+      "name": "Zweckverband Kremmen",
+      "function": "Zweckverband",
+      "service_count": 2
+    },
+    {
+      "key": "zweckverband-nieplitztal",
+      "name": "Zweckverband Nieplitztal",
+      "function": "Zweckverband",
+      "service_count": 2
+    }
+  ]
+}
