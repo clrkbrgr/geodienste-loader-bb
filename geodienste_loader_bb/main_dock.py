@@ -489,9 +489,9 @@ class MainDock(QDockWidget):
     @staticmethod
     def _next_retry_interval_ms():
         """Abstand bis zur nächsten Prüfung in ms."""
-        # Bandit B311: Fehlalarm, nur Lastverteilung.
-        seconds = (RETRY_INTERVAL_MINUTES * 60
-                   + random.uniform(0, RETRY_JITTER_SECONDS))
+        # Zufall nur zur Lastverteilung, nicht für Sicherheit.
+        jitter = random.uniform(0, RETRY_JITTER_SECONDS)  # nosec B311
+        seconds = RETRY_INTERVAL_MINUTES * 60 + jitter
         return int(seconds * 1000)
 
     def _check_preferred_source(self):
