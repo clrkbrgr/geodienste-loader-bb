@@ -10,7 +10,7 @@ about=Browse the geodata providers and geo web services listed in the Geoportal 
   Coverage: all services listed in the Geoportal Brandenburg, mainly from state authorities, districts and municipalities of Brandenburg. User interface in German and English.
 tracker=https://github.com/clrkbrgr/geodienste-loader-bb/issues
 repository=https://github.com/clrkbrgr/geodienste-loader-bb
-homepage=https://www.geobasis-bb.de/
+homepage=https://github.com/clrkbrgr/geodienste-loader-bb
 tags=brandenburg,geodienste,gdi,gdi-bb,gdi-de,wms,wfs,wcs,wmts,ogc api,geoportal,inspire,open data,germany,deutschland,katalog,catalogue
 supportsQt6=True
 category=Web
